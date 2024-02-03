@@ -6,3 +6,6 @@
 - [A typical data table](/markdowns/vendorTrunkGroups.md)
 - [Handling and validating large PDF imports](/markdowns/bulkJobs.md)
 - [Using jsPDF to create PDFs](/markdowns/jsPDF.md)
+- [Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature](/markdowns/robocopRules.md)
+- [Converting formdata to html](/markdowns/routingLookup.md)
+
