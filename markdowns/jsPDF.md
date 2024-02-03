@@ -10,7 +10,7 @@ This is an example of when I needed to update our billing statement using jsPDF.
 ---
 
 
-### This is just one of three layered classes that I needed to revamp for this update
+#### This is just one of three layered classes that I needed to revamp for this update
 ```
 import Helpers from '../helpers/Helpers.js';
 import PDFDocument from './PDFDocument.js';
