@@ -4,4 +4,4 @@
 
 
 - [Using jsPDF for billing statements](/markdowns/jsPDF.md)
-- [A typical configuration table](/markdowns/vendorTrunkGroup.md)
+- [A typical configuration table](/markdowns/vendorTrunkGroups.md)
