@@ -2,10 +2,11 @@
 
 This is an example of when I needed to update our billing statement using jsPDF.  This shows my ability to use the jsPDF library and some of my design skills.  The original did not have any styling, nor did it have any Skyetel or customer information (just a title, date, and list items), if you can believe that!
 
-**See below for code which is just one of three class layers I needed to revamp for this change**
+**See below for code**
 
 ![jsPDF for billing statements](/assets/jsPDFStatement.png)
 
+### This is just one of three layered classes that I needed to revamp for this update
 ```
 import Helpers from '../helpers/Helpers.js';
 import PDFDocument from './PDFDocument.js';
