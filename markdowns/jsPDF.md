@@ -6,6 +6,10 @@ This is an example of when I needed to update our billing statement using jsPDF.
 
 ![jsPDF for billing statements](/assets/jsPDFStatement.png)
 
+
+---
+
+
 ### This is just one of three layered classes that I needed to revamp for this update
 ```
 import Helpers from '../helpers/Helpers.js';

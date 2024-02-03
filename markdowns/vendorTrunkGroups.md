@@ -10,8 +10,10 @@ This is just one of many examples of a interactive data table for our admin and/
 
 
 
+---
 
-### This example is honestly one that would be much better in person, since there are so many classes involved, but here is a snippet of the overarching table class which extends a complex ServerSideTable class that manages filters and pagination, and ties in a few modals.
+
+#### This example is honestly one that would be much better in person, since there are so many classes involved, but here is a snippet of the overarching table class which extends a complex ServerSideTable class that manages filters and pagination, and ties in a few modals.
 
 ```
 import Table from "../Table.js";
@@ -187,6 +189,8 @@ export default TerminationVendorTrunkGroupsTable;
 
 ```
 
+
+---
 ### This is just one of four data class objects that are factored into this page.  The class that this code extends,  the "DataObject" class, is what houses the methods for each data object to use my "Request" object helper which makes CRUD requests to the API.
 ```
 import DataObject from "../DataObject";
@@ -496,6 +500,8 @@ TerminationVendorTrunkGroup.loadDistributionAlgorithms = {
 export default TerminationVendorTrunkGroup;
 ```
 
+
+---
 ### And here is an example of the code behind the main editor modal for this table (well, one class of three because it is an extension of an extension).  This contains all the settings for setting up the editor form's inputs which uses bootstrap behind the scenes.
 ```
 import EditorModal from "../EditorModal.js";
