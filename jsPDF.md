@@ -1,4 +1,4 @@
-e# jsPDF Example
+# jsPDF Example
 
 This is an example of when I needed to update our billing statement using jsPDF.  This shows my ability to use the jsPDF library and some of my design skills.  The original did not have any styling, nor did it have any Skyetel or customer information (just a title, date, and list items), if you can believe that!
 
