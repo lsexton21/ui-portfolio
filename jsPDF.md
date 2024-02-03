@@ -1,6 +1,8 @@
 # jsPDF Example
 
-This is an example of when I needed to update our billing statement using jsPDF.  The original did not have any styling, nor did it have any Skyetel or customer information, if you can believe that.  Below is just one of three class layers that I updated to stylize the pdf document.
+This is an example of when I needed to update our billing statement using jsPDF.  This shows my ability to us jsPDF library, and some of my design skills.  The original did not have any styling, nor did it have any Skyetel or customer information (just a title, date, and list items), if you can believe that!
+
+**See Below For Code which is just one of three class layers I needed to revamp for this change**
 
 ![jsPDF for billing statements](/assets/jsPDFStatement.png)
 
