@@ -4,5 +4,5 @@
 
 
 - [A typical data table](/markdowns/vendorTrunkGroups.md)
-- [Handling large PDF imports](/markdowns/bulkJobs.md)
+- [Handling and validating large PDF imports](/markdowns/bulkJobs.md)
 - [Using jsPDF to create PDFs](/markdowns/jsPDF.md)

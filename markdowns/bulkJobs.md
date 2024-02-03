@@ -1,4 +1,4 @@
-## Handling PDFs 
+## Handling And Validating Large PDF Imports
 
 This is a tool I was proud to make and one where I had my first encounter with AWS services.  I'm proud of the UI because I added some more complex validations for the PDF document itself, which required for the browser to stream read a chunk of the PDF.  The backend contained some lamdas and AWS's step function service (although, I admit, I paired up with a seasoned backend developer on this one and did not tackle the backend functions alone)
 
@@ -9,7 +9,7 @@ This is a tool I was proud to make and one where I had my first encounter with A
 ---
 
 
-#### Below is a method executed when uploading a PDF file.  In it, I put together a safety check to make sure that the PDF file contents did not start with UTF-8 BOM characters which is created by some processors.  These characters prevented our backend functions from processing the PDF correctly.  It would be crazy to force the front end to parse the whole PDF which PDF parsers dependenies do; thus, I created my own file reader stream, but only parsed the first chunk because that is all I needed.
+#### Below is a method executed when uploading a PDF file.  In it, I put together a validation to make sure that the PDF file contents did not start with UTF-8 BOM characters which is created by some processors.  These characters prevented our backend functions from processing the PDF correctly.  It would be crazy to force the front end to parse the whole PDF which JavaScript PDF parsers do; thus, I created my own file reader stream, and only parsed the first chunk because that is all I needed.
 
 ```
 _importCSV(type) {
