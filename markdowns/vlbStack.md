@@ -517,9 +517,9 @@ public function getStonehengeVendorLoadBalancers(ServerRequestInterface $request
 
 ####  And, of course, the SLIM routes
 ```
-$group->get('/vendorloadbalancers' StonehengeTrunkgroupController::class . ':getStonehengeVendorLoadBalancers');/
-        $group->post('/vendorloadbalancers', StonehengeTrunkgroupController::class . ':createStonehengeVendorLoadBalancer');
-        $group->get('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':getStonehengeVendorLoadBalancer');
-        $group->patch('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':updateStonehengeVendorLoadBalancer');
-        $group->delete('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':deleteStonehengeVendorLoadBalancer');
+$group->get('/vendorloadbalancers' StonehengeTrunkgroupController::class . ':getStonehengeVendorLoadBalancers');
+$group->post('/vendorloadbalancers', StonehengeTrunkgroupController::class . ':createStonehengeVendorLoadBalancer');
+$group->get('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':getStonehengeVendorLoadBalancer');
+$group->patch('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':updateStonehengeVendorLoadBalancer');
+$group->delete('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':deleteStonehengeVendorLoadBalancer');
 ```
