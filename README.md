@@ -10,8 +10,17 @@
 - [Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature](/markdowns/robocopRules.md)
 - [Converting formdata to html](/markdowns/routingLookup.md)
 - [Dashboard Graphs](/markdowns/dashboardGraphs.md)
-- Projects I built but are not (yet) represented here: 3 React Apps that(two full, one small), and another smaller jquery/bootstrap app
+- Frontent projects I built but are not currently represented here: 
+    - 3 React Apps (2 professional, 1 personal)
+    - Another smaller jquery/bootstrap app (professional)
+    - A dummy Vue app (personal)
 
 #### Backend
 - [Entity, service, controller, route example](/markdowns/vlbStack.md)
 - [Example of a Bitbucket pipeline and a serverless file for deploying lambdas](/markdowns/serverless.md)
+- [LAMP stack docker build (Linux, Apache, MySQL, PHP)](/markdowns/lampStack.md)
+- Backend projects I also built but are not currently represented here: 
+    - A node.js REST API backend using express, mongoDB/mongoose, multer, aws-sdk (s3), jsonwebtoken, and bcrypt
+    - Many node.js lamda functions (about a dozen) some connecting with dynamo and S3 buckets
+    - node.js Postman tests for our APIs 
+    - And many other SLIM PHP routes, controllers, services, and entities
