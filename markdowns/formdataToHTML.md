@@ -1,6 +1,6 @@
 ## Converting Formdata To HTML
 
-This is an example of when I needed to creat a tool that would allow our admin to easy view routing data from the API in HTML.  
+This is an example of when I needed to create a tool that would allow our admin to easily view raw routing data from our API in a somewhat stylized HTML.  
 
 **See below for code**
 

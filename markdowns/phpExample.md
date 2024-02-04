@@ -1,6 +1,6 @@
-## The full API stack of a typical PHP 
+## PHP - Entity, Service, Controller, And Route Example
 
-This is an example of a typical entity, service, controller, route stack I added to our main PHP API.  I have done several of these, but I chose this one because it had a many to one relationship, but still pretty straighforward.  Easy stuff.  It is also important to know that I know there are some outdated and haphazard things here.  I had to keep consistant with the format of other operations in other parts of the API.
+This is an example of a typical entity, service, controller, route stack I added to our main PHP API.  I have done several of these, but I chose this one because it had at least one "many to one" table relationship, but still pretty straighforward.  Easy stuff.  It is also important to know that I know there are some outdated and haphazard things here.  I had to keep consistant with the format in other parts of the API.
 
 ---
 

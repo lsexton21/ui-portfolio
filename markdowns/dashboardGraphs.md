@@ -1,6 +1,6 @@
-## Data Visualization - Dashboard
+## Data Visualization - Dashboard Graphs
 
-These are a few examples of the dozen or so graphs that I created for clients to visualize their traffic and costs.  I used chartJS as a library for the base, and added plenty of complex customization along the way.  These charts are also more impressive to see in person because you are missing the UX interactions with each graph (changes, tooltips, etc.).  Also, from a UX perspective, it is worth noting that I wanted to add headers for each graph as labels, but I was turned down for a more slim look.
+These are a few examples of the dozen or so graphs that I created for clients to visualize their traffic and costs.  I used chartJS as a library for the base, and added plenty of complex customization along the way.  These charts are also more impressive to see in person because you are missing the UX interactions with each graph (onClick changes, tooltips, etc.).
 
 **See below for code**
 

@@ -1,10 +1,10 @@
 ## Example of LAMP stack for local development
 
-This is one example of a docker container that I have built.  I chose this one to share because it builds the newest versions of everything and includes a custom dockerfile build and a custom file to configure apache's vhost settings for routing purposes.  I used this to locally develop a LAMP stack application.
+This is one example of a docker container that I have built for local development.  I chose this one to share because it builds the newest versions of everything and includes a custom dockerfile build and a custom file to configure apache's vhost settings for routing purposes.  I used this to locally develop a LAMP stack application.
 
 ---
 
-#### This is the dockerfile to create the custom php-8.2-apache server with custom apache vhost configs
+#### This is the dockerfile to create a custom apache server with PHP 8.2 and adding apache vhost configs
 ```
 FROM php:8.2-apache
 
@@ -59,7 +59,7 @@ RUN apt clean
 ```
 
 ---
-#### Adding the docker compose file that will add mariaDB and phpMyAdmin to the php-apache build, map my volumes for real-time editing
+#### Adding the docker compose file that will add mariaDB and phpMyAdmin to the php-apache build and map my volumes for real-time editing
 ```
 version: "2"
 services:

@@ -1,6 +1,6 @@
 ## A Typical Data Table
 
-This is just one of many examples of a interactive data table for our admin and/or clients to set up their telecom network configurations.  Like this one, most tables will have dynamic values (such as counts, colors, status bars and tooltips) that change when configuration is altered.  Furthermore, each table will also have multiple buttons that open up other modals for advanced configuration.  This page alone uses over 50 instances of ***different*** class types to come together to make this table.
+This is just one of many examples of an interactive data table that I built for our admin and/or clients to set up their telecom network configurations.  Like this one, most tables will have dynamic values (such as counts, colors, status bars and tooltips) that change when configuration is altered.  Furthermore, each table will also have multiple buttons that open up other modals for advanced configuration.  This page alone uses about 25 ***different*** class types to come together to make this table.
 
 **See below for code**
 

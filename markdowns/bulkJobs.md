@@ -1,6 +1,6 @@
 ## Handling And Validating Large PDF Imports
 
-This is a tool I was proud to make and one where I had my first encounter with AWS services.  I'm proud of the UI because I added some more complex validations for the PDF document itself, which required for the browser to stream read a chunk of the PDF.  The backend contained some lamdas and AWS's step function service (although, I admit, I paired up with a seasoned backend developer on this one and did not tackle the backend functions alone)
+This is a tool I was proud to make and one where I had my first encounter with AWS services.  I'm proud of the UI because I added some more complex validations for the PDF document itself, which required for the browser to stream-read a chunk of the PDF.  The backend contained some lamdas that were organized by an AWS step-function (which, being my first encounter with AWS, I co-developed with a senior backend dev)
 
 **See below for code**
 
