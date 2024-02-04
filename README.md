@@ -1,8 +1,8 @@
 # Lucas Sexton's Web Dev Highlights 
 
-This repo contains just some highlights of my front and backend work over the past two years.  Use the navigation links below to read about a feature I built.  Each link will have an overview, an image (for frontend features), and any relevant code snippet(s).
+This repo contains just some highlights of my front and backend work over the past two years.  Use the navigation links below to read about a feature I built.  Each link will have an overview, an image (for frontend features), and any relevant code snippet(s).(***Last updated on February 4th, 2024***)
 
-***Last updated on February 4th, 2024***
+
 ---
 #### Frontend
 - [A Typical Data Table](/markdowns/typicalDataTable.md)
