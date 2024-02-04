@@ -1,6 +1,8 @@
-# Lucas Sexton's Web Dev Highlights as of February 4th, 2024
+# Lucas Sexton's Web Dev Highlights 
+---
+***last updated on February 4th, 2024***
 
-***This repo contains some of the highlights of my UI work in the past year.  Use the navigation links below to read about a desired topic.  Each link will have an overview, an image, and most relevant code snippet(s).  ***
+This repo contains some of the highlights of my UI work in the past year.  Use the navigation links below to read about a desired topic.  Each link will have an overview, an image, and most relevant code snippet(s).
 
 ---
 #### Frontend
