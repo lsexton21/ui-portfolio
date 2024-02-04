@@ -65,3 +65,5 @@ createHtmlListItemsFromDataObject: function (data) {
     return $resultList;
   },
 ```
+
+[Return to main menu](../README.md)

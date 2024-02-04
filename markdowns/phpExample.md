@@ -523,3 +523,5 @@ $group->get('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class .
 $group->patch('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':updateStonehengeVendorLoadBalancer');
 $group->delete('/vendorloadbalancers/{id}', StonehengeTrunkgroupController::class . ':deleteStonehengeVendorLoadBalancer');
 ```
+
+[Return to main menu](../README.md)

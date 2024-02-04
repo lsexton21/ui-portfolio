@@ -290,3 +290,5 @@ class TenantsCostChart extends ChartBase {
 export default TenantsCostChart;
 
 ```
+
+[Return to main menu](../README.md)

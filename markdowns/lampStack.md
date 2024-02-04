@@ -104,3 +104,5 @@ services:
 volumes:
   mysqldata:
 ```
+
+[Return to main menu](../README.md)
