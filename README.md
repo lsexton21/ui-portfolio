@@ -8,4 +8,5 @@
 - [Using jsPDF to create PDFs](/markdowns/jsPDF.md)
 - [Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature](/markdowns/robocopRules.md)
 - [Converting formdata to html](/markdowns/routingLookup.md)
+- [Dashboard Graphs](/markdowns/dashboardGraphs.md)
 
