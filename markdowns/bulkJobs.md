@@ -9,7 +9,7 @@ This bulk import tool (for phone numbers) was interesting to make and one where 
 ---
 
 
-#### Below is a method executed when uploading this CSV file.  In it, I put together a validation to make sure that the CSV file contents did not start with UTF-8 BOM characters which is created by some processors.  These characters prevented our backend functions from processing the CSV correctly.  It would be crazy to force the front end to parse the whole PDF which JavaScript PDF parsers do; thus, I created my own file reader stream, and only parsed the first chunk because that is all I needed.
+#### Below is a UI function I wrote that executed when uploading this CSV file.  In it, I put together a validation to make sure that the CSV file contents did not start with UTF-8 BOM characters which is created by some processors.  These characters prevented our backend functions from processing the CSV correctly.  It would be crazy to force the front end to parse the whole PDF which JavaScript PDF parsers do; thus, I created my own file reader stream, and only parsed the first chunk because that is all I needed.
 
 ```
 _importCSV(type) {

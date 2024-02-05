@@ -10,7 +10,7 @@ These are a few examples of the dozen or so graphs that I created for clients to
 ---
 
 
-#### Again, there are so many layers within this dashboard page, but I focused on showing my code for creating the Tenant chart (which is the one on the top right)
+#### As you would expect, there are so many layers within this dashboard page, but I focused on showing my code for creating the Tenant chart (which is the one on the top right)
 
 ```
 import Helpers from "../../helpers/Helpers.js";

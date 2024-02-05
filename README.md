@@ -8,11 +8,11 @@ This repo contains just some highlights of my front and backend work over the pa
 ---
 #### Frontend
 - [A Typical Data Table](/markdowns/typicalDataTable.md)
+- [Data Visualization - Dashboard Graphs](/markdowns/dashboardGraphs.md)
 - [Handling And Validating Large CSV Imports](/markdowns/bulkJobs.md)
 - [Using jsPDF To Create PDFs](/markdowns/jsPDF.md)
 - [Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature](/markdowns/robocopRules.md)
 - [Converting Formdata To HTML](/markdowns/formdataToHTML.md)
-- [Data Visualization - Dashboard Graphs](/markdowns/dashboardGraphs.md)
 - Frontent projects I built but are not currently represented here: 
     - 3 React Apps (2 professional, 1 personal)
     - Another smaller jquery/bootstrap app (professional)

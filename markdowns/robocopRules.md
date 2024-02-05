@@ -1,6 +1,6 @@
 ## Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature
 
-This is an example of a form to create traffic rules that had some complexity. First, I gave it a rather peculiar format for better UX experience.  Second, the validations were highly regulated (every rule that was created dynamically changed the range of validations for the next rule).  And third, nothing too fancy, but I added a little drag and drop feature for reordering the rules (which, of course, would change all the validations of each).
+This is an example of a custom form I created to add traffic rules that had some complexity. First, I gave it a rather peculiar format for better UX experience.  Second, the validations were highly regulated (every rule that was created dynamically changed the range of validations for the next rule).  And third, nothing too fancy, but I added a little drag and drop feature for reordering the rules (which, of course, would change all the validations of each).
 
 **See below for code**
 

@@ -1,6 +1,6 @@
 ## PHP - Entity, Service, Controller, And Route Example
 
-This is an example of a typical entity, service, controller, route stack I added to our main PHP API.  I have done several of these, but I chose this one because it had at least one "many to one" table relationship, but still pretty straighforward.  Easy stuff.  It is also important to know that I know there are some outdated and haphazard things here.  I had to keep consistant with the format in other parts of the API.
+This is an example of a typical entity, service, controller, route stack I added to our main PHP API.  I have done several of these, but this one was the most recent.
 
 ---
 
@@ -319,6 +319,7 @@ class StonehengeVLBService
         $filters =  count($filters) > 0 ? " WHERE sv.archived=0 AND " . implode(" AND ", $filters) : ' WHERE sv.archived=0 ';
         $sorting =  count($sorting) > 0 ? " ORDER BY " . implode(",", $sorting) : '';
 
+        // please note that the coalesce section of this query was added later by another developer
         $sql = "SELECT sv.id, sv.name, sv.ip_private, sv.ip_public, sv.created_by, sv.created_on, sv.updated_by, sv.updated_on, sv.notes, sv.archived, COALESCE(sum(tg.cps_limit),0) as allocated_cps FROM stonehenge_vlb sv  LEFT JOIN stonehenge_termination_vendor_trunkgroup tg on sv.id=tg.vlb_id  group by sv.id order by sv.id";
 
         $list = $this->database->createNativeQuery($sql, $rsm);
@@ -431,7 +432,7 @@ class StonehengeVLBService
 
 ---
 
-#### And the controller which has an instance of Doctrine's "Entity Manager" that we pass to the service.
+#### And the controller which has an instance of Doctrine's "Entity Manager" that I passed to the service.
 
 ```
 public function getStonehengeVendorLoadBalancers(ServerRequestInterface $request, ResponseInterface $response): ResponseInterface
