@@ -8,7 +8,7 @@ This repo contains just some highlights of my front and backend work over the pa
 ---
 #### Frontend
 - [A Typical Data Table](/markdowns/typicalDataTable.md)
-- [Handling And Validating Large PDF Imports](/markdowns/bulkJobs.md)
+- [Handling And Validating Large CSV Imports](/markdowns/bulkJobs.md)
 - [Using jsPDF To Create PDFs](/markdowns/jsPDF.md)
 - [Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature](/markdowns/robocopRules.md)
 - [Converting Formdata To HTML](/markdowns/formdataToHTML.md)
