@@ -23,7 +23,8 @@ This repo contains just some highlights of my front and backend work over the pa
 - [Bitbucket Pipeline And Using Serverless - Deploying A PHP REST API As An AWS Lambda](/markdowns/serverless.md)
 - [LAMP Stack Docker Build (Linux, Apache, MySQL, PHP)](/markdowns/lampStack.md)
 - Backend projects I also built but are not currently represented here: 
-    - A node.js REST API backend using express, mongoDB/mongoose, multer, aws-sdk (s3), jsonwebtoken, and bcrypt
+    - A SLIM 4 API that includes monolog, Google's recaptcha, php-di, respect validation, smarty streets, sentry, and bref libraries 
+    - A node.js API that includes express, mongoDB/mongoose, multer, aws-sdk (s3), jsonwebtoken, and bcrypt libraries
     - Many node.js lamda functions (about a dozen) some connecting with dynamo and S3 buckets
     - node.js Postman tests for our APIs 
     - And many other SLIM PHP routes, controllers, services, and entities
