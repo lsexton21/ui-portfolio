@@ -1,6 +1,6 @@
 ## Handling And Validating Large CSV Imports
 
-This bulk import tool (for phone numbers) was interesting to make and one where I encountered many AWS services.  I'm proud of the UI because I added some complex validations for the CSV file itself, which required for the browser to stream-read a chunk of the CSV.  The backend involved a few S3 buckets to store versions of the CSV file, some lamdas to add/edit each phone number, and a dynamo DB table that records the import's details.  All of this was organized by an AWS step-function.  (I am not including the backend of this feature in my portfolio because its co-development was led by a senior backend dev)
+This bulk import tool (for phone numbers) was interesting to make and one where I encountered many AWS services.  I'm proud of the UI because I added some complex validations for the CSV file itself, which required for the browser to stream-read a chunk of the CSV.  The backend involved a few S3 buckets to store versions of the CSV file, some lamdas to add/edit each phone number, and a dynamo DB table that records the import's details.  All of this was organized by an AWS step-function.  (I am not including the backend of this feature in my portfolio because its co-development was led by a senior backend dev and not my work exclusively)
 
 **See below for code**
 
