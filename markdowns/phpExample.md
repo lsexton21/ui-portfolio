@@ -1,6 +1,6 @@
 ## PHP - Entity, Service, Controller, And Route Example
 
-This is an example of a typical entity, service, controller, route stack I added to our main PHP API.  I have done several of these, but this one was the most recent.
+This is an example of a typical entity, service, controller, route stack I added to our main PHP API.  I have done several of these, but this one was the most recent.  Please note, that my style of code is remaining consistant with the rest of the app.  There are a few updates I would personally make, such as adding strict types, and which I did so on my full SLIM app I created.
 
 ---
 
