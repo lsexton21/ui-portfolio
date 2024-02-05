@@ -59,7 +59,7 @@ RUN apt clean
 ```
 
 ---
-#### Adding the docker compose file that will add mariaDB and phpMyAdmin to the php-apache build and map my volumes for real-time editing
+#### Adding the docker compose file that will add mariaDB and phpMyAdmin to the php-apache build and mount my volumes for real-time editing
 ```
 version: "2"
 services:

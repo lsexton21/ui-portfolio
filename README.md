@@ -14,7 +14,7 @@ This repo contains just some highlights of my front and backend work over the pa
 - [Custom Form Layout, Complex Validations, and Custom Drag and Drop Feature](/markdowns/robocopRules.md)
 - [Converting Formdata To HTML](/markdowns/formdataToHTML.md)
 - Frontent projects I built but are not currently represented here: 
-    - 3 React Apps (2 professional, 1 personal)
+    - 3 React Apps (1 professional, 2 personal)
     - Another smaller jquery/bootstrap app (professional)
     - A partial Vue app (personal practice)
 

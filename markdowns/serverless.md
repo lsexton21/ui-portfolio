@@ -1,6 +1,6 @@
 ## Bitbucket Pipeline And Using Serverless - Deploying A PHP REST API As An AWS Lambda
 
-The following two files are a perfect example of how I was able to deploy our signup PHP REST API repo as an AWS lambda function.
+The following two files exemplify how I was able to deploy one of our PHP REST APIs as an AWS lambda function.
 
 
 ---
