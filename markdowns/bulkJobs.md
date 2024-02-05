@@ -1,6 +1,6 @@
-## Handling And Validating Large PDF Imports
+## Handling And Validating Large CSV Imports
 
-This is a tool I was proud to make and one where I had my first encounter with AWS services.  I'm proud of the UI because I added some more complex validations for the PDF document itself, which required for the browser to stream-read a chunk of the PDF.  The backend contained some lamdas that were organized by an AWS step-function (which, being my first encounter with AWS, I co-developed with a senior backend dev)
+This bulk import tool (for phone numbers) was interesting to make and one where I encountered many AWS services.  I'm proud of the UI because I added some complex validations for the CSV file itself, which required for the browser to stream-read a chunk of the CSV.  The backend involved a few S3 buckets to store versions of the CSV file, some lamdas to add/edit each phone number, and a dynamo DB table that records the import's details.  All of this was organized by an AWS step-function.  (I am not including the backend of this feature in my portfolio because its co-development was led by a senior backend dev)
 
 **See below for code**
 
@@ -9,7 +9,7 @@ This is a tool I was proud to make and one where I had my first encounter with A
 ---
 
 
-#### Below is a method executed when uploading a PDF file.  In it, I put together a validation to make sure that the PDF file contents did not start with UTF-8 BOM characters which is created by some processors.  These characters prevented our backend functions from processing the PDF correctly.  It would be crazy to force the front end to parse the whole PDF which JavaScript PDF parsers do; thus, I created my own file reader stream, and only parsed the first chunk because that is all I needed.
+#### Below is a method executed when uploading this CSV file.  In it, I put together a validation to make sure that the CSV file contents did not start with UTF-8 BOM characters which is created by some processors.  These characters prevented our backend functions from processing the CSV correctly.  It would be crazy to force the front end to parse the whole PDF which JavaScript PDF parsers do; thus, I created my own file reader stream, and only parsed the first chunk because that is all I needed.
 
 ```
 _importCSV(type) {
@@ -76,7 +76,7 @@ _importCSV(type) {
 
 ---
 
-#### Since I was parsing the first chunk anyway (see above), I also added logic to validate the headers of the PDF document here:
+#### Since I was parsing the first chunk anyway (see above), I also added logic to validate the headers of the CSV document here:
 
 ```
 validateHeaders(type, chunk) {
