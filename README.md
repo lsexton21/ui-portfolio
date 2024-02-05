@@ -1,6 +1,7 @@
 # Lucas Sexton's Web Dev Highlights 
 
-This repo contains just some highlights of my front and backend work over the past year.  Use the navigation links below to read about one of the features I built.  Each link will have an overview, an image (for frontend features), and any relevant code snippet(s).\  ***Last updated on February 4th, 2024***
+This repo contains just some highlights of my front and backend work over the past year.  Use the navigation links below to read about one of the features I built.  Each link will have an overview, an image (for frontend features), and any relevant code snippet(s).
+***Last updated on February 4th, 2024***
 
 
 ---
