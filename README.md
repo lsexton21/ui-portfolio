@@ -19,6 +19,7 @@ This repo contains just some highlights of my front and backend work over the pa
     - A partial Vue app (personal practice)
 
 #### Backend
+- [PHP - Sample From My Own Built API For Our Signup App](/markdowns/phpExampleOwnBuild.md)
 - [PHP - Entity, Service, Controller, And Route Example](/markdowns/phpExample.md)
 - [Bitbucket Pipeline And Using Serverless - Deploying A PHP REST API As An AWS Lambda](/markdowns/serverless.md)
 - [LAMP Stack Docker Build (Linux, Apache, MySQL, PHP)](/markdowns/lampStack.md)
