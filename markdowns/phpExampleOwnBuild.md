@@ -433,15 +433,11 @@ class SignupService
         $activeHours = $_ENV['SIGNUP_ACTIVE_HOURS'];
 
         $signupRepository = $this->entityManager->getRepository(Signup::class);
-        $signup = $signupRepository->findOneBy(['id' => $signupId]);
+        $signup = $signupRepository->findOneBy(array('id' => $signupId, 'active' => 1, 'completed' => 0,));
 
         $currentDatetime = new \DateTime();
         if (
-            $signup === null ||
-            $signup->getCompleted() === 1 ||
-            $signup->getActive() === 0 ||
-            $signup->getCreatedAt() < $currentDatetime->modify('-' . $activeHours . ' hours')
-        ) {
+            $signup === null || $signup->getCreatedAt() < $currentDatetime->modify('-' . $activeHours . ' hours')) {
             throw CustomException::invalidSignupIdException();
         }
 
